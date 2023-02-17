@@ -16,7 +16,7 @@ export function Duvidas() {
         <div >
             <div className="pt-4 justify-center items-center flex flex-1 space-x-1 space-y-2">            
             {finishedTimeout &&
-                        <button className="flex shadow-neutral-100 mr-8">
+                        <button className="flex shadow-neutral-100 ">
                             <a
                                 href="https://pepper.com.br/checkout/index.html?p=17026&o=10373"
                                 className="  min-w-[320px]  max-w-[480px] shadow flex justify-center py-4 border animate-bounce border-transparent text-lg font-semibold rounded-lg text-white bg-green-800 hover:bg-blue-900"
