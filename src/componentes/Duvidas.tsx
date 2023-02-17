@@ -14,11 +14,11 @@ export function Duvidas() {
     return (
         <div>        
         <div className="">
-            <div className="w-full px-4 pt-4 mx-auto max-w-sm">            
+            <div className="w-full py-4 mx-auto max-w-sm ">            
             {finishedTimeout &&
-                        <button className="flex shadow-neutral-100">
+                        <button className="flex shadow-neutral-100 mr-8">
                             <a
-                                href="https://contate.me/BuscarDados"
+                                href="https://pepper.com.br/checkout/index.html?p=17026&o=10373"
                                 className="  min-w-[320px]  max-w-[480px] shadow flex justify-center py-4 border animate-bounce border-transparent text-lg font-semibold rounded-lg text-white bg-green-800 hover:bg-blue-900"
                             >
                                 QUERO MEU ACESSO AGORA!
