@@ -13,8 +13,8 @@ export function Duvidas() {
 
     return (
         <div>        
-        <div className="">
-            <div className="w-full py-4 mx-auto max-w-sm ">            
+        <div >
+            <div className="pt-4 justify-center items-center flex flex-1 space-x-1 space-y-2">            
             {finishedTimeout &&
                         <button className="flex shadow-neutral-100 mr-8">
                             <a
@@ -29,9 +29,9 @@ export function Duvidas() {
         </div>        
         {finishedTimeout &&
             <div>
-                <div className="bg-gray-700 flex flex-col space-x-1 space-y-2 p-10 justify-center items-center">
+                <div className="bg-gray-700 flex flex-col space-x-1 space-y-2 p-4 justify-center items-center">
                     <a href="https://pepper.com.br/checkout/index.html?p=17026&o=10373" ></a>
-                    <h3 className="text-3xl font-bold text-green-800 animate-ping">Quero meu acesso agora</h3>
+                    <h3 className="text-2xl font-bold text-green-800 animate-ping text-center">Quero meu acesso <br/>AGORA!!!</h3>
                 </div>             
             </div>
         } 
